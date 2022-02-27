@@ -1,0 +1,16 @@
+.optionsContainer {
+  width: auto;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  min-height: 20px;
+}
+
+.optionBox {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
