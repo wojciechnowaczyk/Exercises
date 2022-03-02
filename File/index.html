@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Files api</title>
+  </head>
+
+  <body>
+    <p>File api exercises</p>
+    <p>Single file</p>
+    <input type="file" id="fileInput" />
+    <p>Multiple files</p>
+    <input type="file" onchange="readFiles(event)" multiple />
+    <p>Drag&Drop files</p>
+    <div
+      id="dropZone"
+      style="width: 100%; min-height: 100px; border: 1px solid black"
+    >
+      Drag file in here
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
